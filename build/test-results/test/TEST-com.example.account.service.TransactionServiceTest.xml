@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.account.service.TransactionServiceTest" tests="15" skipped="0" failures="0" errors="0" timestamp="2022-08-08T12:37:04" hostname="MacBook-Pro.local" time="0.54">
+  <properties/>
+  <testcase name="계좌가 없는 경우 - 잔액 사용 실패" classname="com.example.account.service.TransactionServiceTest" time="0.489"/>
+  <testcase name="잔액 사용 확인 - 잔액 사용 확인 성공" classname="com.example.account.service.TransactionServiceTest" time="0.008"/>
+  <testcase name="해당 아이디에 맞는 거래가 없는 경우 - 잔액 사용 확인 실패" classname="com.example.account.service.TransactionServiceTest" time="0.002"/>
+  <testcase name="사용자와 계좌 소유주가 상이한 경우 - 잔액 사용 실패" classname="com.example.account.service.TransactionServiceTest" time="0.003"/>
+  <testcase name="계좌 잔액을 사용하는 경우 - 계좌 잔액 사용 성공" classname="com.example.account.service.TransactionServiceTest" time="0.004"/>
+  <testcase name="거래금액이 잔액보다 큰 경우 - 잔액 사용 실패" classname="com.example.account.service.TransactionServiceTest" time="0.002"/>
+  <testcase name="거래 기간이 1년이 넘은 경우 - 잔액 사용 취소 실패" classname="com.example.account.service.TransactionServiceTest" time="0.003"/>
+  <testcase name="해당 사용자가 없는 경우 - 잔액 사용 실패" classname="com.example.account.service.TransactionServiceTest" time="0.001"/>
+  <testcase name="거래금액과 거래 취소 금액이 상이한 경우 - 잔액 사용 취소 실패" classname="com.example.account.service.TransactionServiceTest" time="0.002"/>
+  <testcase name="계좌와 거래가 일치하지 않는 경우 - 잔액 사용 취소 실패" classname="com.example.account.service.TransactionServiceTest" time="0.003"/>
+  <testcase name="잔액을 사용하는 경우 - 계좌 잔액 사용 취소 성공" classname="com.example.account.service.TransactionServiceTest" time="0.006"/>
+  <testcase name="해당 거래가 없는 경우 - 잔액 사용 취소 실패" classname="com.example.account.service.TransactionServiceTest" time="0.002"/>
+  <testcase name="계좌가 없는 경우 - 잔액 사용 실패" classname="com.example.account.service.TransactionServiceTest" time="0.002"/>
+  <testcase name="실패 트랜잭션 저장 성공인 경우" classname="com.example.account.service.TransactionServiceTest" time="0.002"/>
+  <testcase name="계좌가 이미 해지된 경우 - 잔액 사용 실패" classname="com.example.account.service.TransactionServiceTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
